@@ -2,7 +2,7 @@
 
 Investigação de servidor comprometido utilizando análise de logs no terminal do Kali Linux.
 
-## 🎯 Objetivo
+## Objetivo
 
 Realizar uma investigação Blue Team em um servidor Linux que sofreu acesso não autorizado. O atacante conseguiu quebrar a confidencialidade ao acessar um portal restrito apenas para funcionários.
 
@@ -12,26 +12,26 @@ O principal desafio era identificar:
 - Ferramentas utilizadas pelo atacante
 - Arquivos e informações sensíveis acessados
 
-## 📋 Cenário
+## Cenário
 
 Um servidor corporativo foi comprometido. O atacante obteve acesso a um portal interno restrito. A empresa solicitou uma investigação urgente para entender como o ataque ocorreu e quais dados foram expostos.
 
 > "Precisamos da sua ajuda com a investigação, não fazemos ideia de como alguém conseguiu acessar nosso portal. Existe como rastrear?"  
 > — E-mail do Diretor
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 
 - **Kali Linux** (terminal apenas)
 - Comandos nativos do Linux (`cat`, `grep`, `awk`, `sort`, `uniq`, `wc`, `tail`, `head`, etc.)
 
 **Nenhuma ferramenta GUI ou ELK Stack foi utilizada.**
 
-## 📂 Logs Analisados
+## Logs Analisados
 
 - `access.log` — Log de acesso do servidor web
 - `lab.log` — Log complementar do laboratório
 
-## 🔍 Metodologia de Investigação
+## Metodologia de Investigação
 
 A análise foi realizada exclusivamente via terminal com os seguintes passos:
 
